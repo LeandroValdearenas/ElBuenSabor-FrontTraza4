@@ -1,0 +1,5 @@
+import Categoria from "../entidades/Categoria";
+import BackendClient from "./BackendClient";
+
+export default class CategoriaService extends BackendClient<Categoria> {
+}
